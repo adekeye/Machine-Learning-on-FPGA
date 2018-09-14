@@ -1,0 +1,8 @@
+verilog isim_temp "maxpool.v"
+verilog isim_temp "Filter.v"
+verilog isim_temp "convolution.v"
+verilog isim_temp "AddressM2.v"
+verilog isim_temp "AddressM1.v"
+verilog isim_temp "top_mod.v"
+verilog isim_temp "tb.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

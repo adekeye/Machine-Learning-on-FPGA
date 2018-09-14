@@ -1,0 +1,75 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/olaolu-Goke/Desktop/CNN/CNN Verilog/CNN Verilog Phase 4/tb_isim_beh.exe -prj C:/Users/olaolu-Goke/Desktop/CNN/CNN Verilog/CNN Verilog Phase 4/tb_beh.prj work.tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/olaolu-Goke/Desktop/CNN/CNN Verilog/CNN Verilog Phase 4/maxpool.v" into library work
+Analyzing Verilog file "C:/Users/olaolu-Goke/Desktop/CNN/CNN Verilog/CNN Verilog Phase 4/Filter.v" into library work
+Analyzing Verilog file "C:/Users/olaolu-Goke/Desktop/CNN/CNN Verilog/CNN Verilog Phase 4/convolution.v" into library work
+Analyzing Verilog file "C:/Users/olaolu-Goke/Desktop/CNN/CNN Verilog/CNN Verilog Phase 4/AddressM2.v" into library work
+Analyzing Verilog file "C:/Users/olaolu-Goke/Desktop/CNN/CNN Verilog/CNN Verilog Phase 4/AddressM1.v" into library work
+Analyzing Verilog file "C:/Users/olaolu-Goke/Desktop/CNN/CNN Verilog/CNN Verilog Phase 4/top_mod.v" into library work
+WARNING:HDLCompiler:751 - "C:/Users/olaolu-Goke/Desktop/CNN/CNN Verilog/CNN Verilog Phase 4/top_mod.v" Line 74: Redeclaration of ansi port maxpool is not allowed
+Analyzing Verilog file "C:/Users/olaolu-Goke/Desktop/CNN/CNN Verilog/CNN Verilog Phase 4/tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Parsing VHDL file "C:/Users/olaolu-Goke/Desktop/CNN/CNN Verilog/CNN Verilog Phase 4/ipcore_dir/Pattern_conv.vhd" into library work
+Parsing VHDL file "C:/Users/olaolu-Goke/Desktop/CNN/CNN Verilog/CNN Verilog Phase 4/ipcore_dir/Image_conv.vhd" into library work
+Parsing VHDL file "C:/Users/olaolu-Goke/Desktop/CNN/CNN Verilog/CNN Verilog Phase 4/ipcore_dir/maxpool_IP.vhd" into library work
+Parsing VHDL file "C:/Users/olaolu-Goke/Desktop/CNN/CNN Verilog/CNN Verilog Phase 4/ipcore_dir/Pattern.vhd" into library work
+Parsing VHDL file "C:/Users/olaolu-Goke/Desktop/CNN/CNN Verilog/CNN Verilog Phase 4/ipcore_dir/Image_doc.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:919 - "C:/Users/olaolu-Goke/Desktop/CNN/CNN Verilog/CNN Verilog Phase 4/top_mod.v" Line 126: Size mismatch in mixed language port association, vhdl port dina
+WARNING:HDLCompiler:919 - "C:/Users/olaolu-Goke/Desktop/CNN/CNN Verilog/CNN Verilog Phase 4/top_mod.v" Line 135: Size mismatch in mixed language port association, vhdl port dina
+WARNING:HDLCompiler:189 - "C:/Users/olaolu-Goke/Desktop/CNN/CNN Verilog/CNN Verilog Phase 4/top_mod.v" Line 248: Size mismatch in connection of port <element>. Formal port size is 4-bit while actual signal size is 9-bit.
+Completed static elaboration
+Compiling module Filter
+Compiling module Addr_ctrl
+Compiling module Addr_ctrl2
+Compiling module convolution
+Compiling module maxpool_1
+Compiling module Top
+Compiling module tb
+Compiling module glbl
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package textio
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package std_logic_textio
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V7_3_output_stage [\BLK_MEM_GEN_V7_3_output_stage("...]
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V7_3_output_stage [\BLK_MEM_GEN_V7_3_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity BLK_MEM_GEN_V7_3_softecc_output_reg_stage [\BLK_MEM_GEN_V7_3_softecc_output...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V7_3_mem_module [\BLK_MEM_GEN_V7_3_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V7_3 [\BLK_MEM_GEN_V7_3("blk_mem_gen_v...]
+Compiling architecture pattern_a of entity Pattern [pattern_default]
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V7_3_output_stage [\BLK_MEM_GEN_V7_3_output_stage("...]
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V7_3_output_stage [\BLK_MEM_GEN_V7_3_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity BLK_MEM_GEN_V7_3_softecc_output_reg_stage [\BLK_MEM_GEN_V7_3_softecc_output...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V7_3_mem_module [\BLK_MEM_GEN_V7_3_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V7_3 [\BLK_MEM_GEN_V7_3("blk_mem_gen_v...]
+Compiling architecture image_doc_a of entity Image_doc [image_doc_default]
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V7_3_output_stage [\BLK_MEM_GEN_V7_3_output_stage("...]
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V7_3_output_stage [\BLK_MEM_GEN_V7_3_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity BLK_MEM_GEN_V7_3_softecc_output_reg_stage [\BLK_MEM_GEN_V7_3_softecc_output...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V7_3_mem_module [\BLK_MEM_GEN_V7_3_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V7_3 [\BLK_MEM_GEN_V7_3("blk_mem_gen_v...]
+Compiling architecture pattern_conv_a of entity Pattern_conv [pattern_conv_default]
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V7_3_output_stage [\BLK_MEM_GEN_V7_3_output_stage("...]
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V7_3_output_stage [\BLK_MEM_GEN_V7_3_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity BLK_MEM_GEN_V7_3_softecc_output_reg_stage [\BLK_MEM_GEN_V7_3_softecc_output...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V7_3_mem_module [\BLK_MEM_GEN_V7_3_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V7_3 [\BLK_MEM_GEN_V7_3("blk_mem_gen_v...]
+Compiling architecture image_conv_a of entity Image_conv [image_conv_default]
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V7_3_output_stage [\BLK_MEM_GEN_V7_3_output_stage("...]
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V7_3_output_stage [\BLK_MEM_GEN_V7_3_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity BLK_MEM_GEN_V7_3_softecc_output_reg_stage [\BLK_MEM_GEN_V7_3_softecc_output...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V7_3_mem_module [\BLK_MEM_GEN_V7_3_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V7_3 [\BLK_MEM_GEN_V7_3("blk_mem_gen_v...]
+Compiling architecture maxpool_ip_a of entity maxpool_IP [maxpool_ip_default]
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 66 VHDL Units
+Compiled 8 Verilog Units
+Built simulation executable C:/Users/olaolu-Goke/Desktop/CNN/CNN Verilog/CNN Verilog Phase 4/tb_isim_beh.exe
+Fuse Memory Usage: 331876 KB
+Fuse CPU Usage: 51140 ms

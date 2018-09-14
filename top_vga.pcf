@@ -1,0 +1,37 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri May 18 14:18:17 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "reset" LOCATE = SITE "N17" LEVEL 1;
+COMP "HS" LOCATE = SITE "B11" LEVEL 1;
+COMP "VS" LOCATE = SITE "B12" LEVEL 1;
+COMP "vga<11>" LOCATE = SITE "D8" LEVEL 1;
+COMP "vga<10>" LOCATE = SITE "D7" LEVEL 1;
+COMP "start" LOCATE = SITE "M18" LEVEL 1;
+COMP "vga<0>" LOCATE = SITE "A3" LEVEL 1;
+COMP "vga<1>" LOCATE = SITE "B4" LEVEL 1;
+COMP "vga<2>" LOCATE = SITE "C5" LEVEL 1;
+COMP "vga<3>" LOCATE = SITE "A4" LEVEL 1;
+COMP "vga<4>" LOCATE = SITE "C6" LEVEL 1;
+COMP "vga<5>" LOCATE = SITE "A5" LEVEL 1;
+COMP "vga<6>" LOCATE = SITE "B6" LEVEL 1;
+COMP "vga<7>" LOCATE = SITE "A6" LEVEL 1;
+COMP "vga<8>" LOCATE = SITE "B7" LEVEL 1;
+COMP "vga<9>" LOCATE = SITE "C7" LEVEL 1;
+COMP "vFree" LOCATE = SITE "K15" LEVEL 1;
+COMP "displ_vga<0>" LOCATE = SITE "N14" LEVEL 1;
+COMP "displ_vga<3>" LOCATE = SITE "U17" LEVEL 1;
+COMP "displ_vga<4>" LOCATE = SITE "U16" LEVEL 1;
+COMP "displ_vga<1>" LOCATE = SITE "R18" LEVEL 1;
+COMP "displ_vga<2>" LOCATE = SITE "V17" LEVEL 1;
+COMP "displ_vga<7>" LOCATE = SITE "U14" LEVEL 1;
+COMP "displ_vga<8>" LOCATE = SITE "T16" LEVEL 1;
+COMP "displ_vga<5>" LOCATE = SITE "V16" LEVEL 1;
+COMP "displ_vga<6>" LOCATE = SITE "T15" LEVEL 1;
+COMP "displ_vga<9>" LOCATE = SITE "V15" LEVEL 1;
+COMP "clk" LOCATE = SITE "E3" LEVEL 1;
+COMP "hFree" LOCATE = SITE "H17" LEVEL 1;
+COMP "done" LOCATE = SITE "J13" LEVEL 1;
+SCHEMATIC END;
+
